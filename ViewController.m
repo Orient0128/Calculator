@@ -48,7 +48,7 @@
                                                                    action:@selector(clickRightButton)];
 
     //设置导航栏内容
-    [navigationItem setTitle:@"我要离开这套路的世界"];
+    [navigationItem setTitle:@"我要离开这套路的城市"];
     //把导航栏集合添加入导航栏中，设置动画关闭
     [navigationBar pushNavigationItem:navigationItem animated:NO];
     //把左右两个按钮添加入导航栏集合中
@@ -70,7 +70,7 @@
     [self.view addSubview:_label];
     self.label.backgroundColor = [UIColor whiteColor];
     self.label.textColor = [UIColor blackColor];
-    self.label.text = @"我要离开这\r\n套路的世界";
+    self.label.text = @"我要离开这\r\n套路的城市";
     self.label.lineBreakMode = NSLineBreakByWordWrapping;
     self.label.numberOfLines = 0;//上两行设置自动换行
     //    self.label.textAlignment = UITextAlignmentRight;//字体居右
@@ -270,7 +270,7 @@
     [self.string setString:@""];
     self.num1 = 0;
     self.num2 = 0;
-    self.label.text = @"我要离开这\r\n套路的世界";
+    self.label.text = @"我要离开这\r\n套路的城市";
 }
 
 -(void)back:(id)sender{
